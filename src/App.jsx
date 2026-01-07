@@ -4,6 +4,7 @@ import Home from './compnents/Home'
 import Navbar from './compnents/Navbar'
 import About from './compnents/About'
 import Contact from './compnents/Contact'
+import NotFound from './compnents/Notfound'
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <Route path='/' element= {<Home />} />
         <Route path='/About' element= {<About />} />
         <Route path='/Contact' element= {<Contact />} />
+        <Route path='*' element= {<NotFound />} />
 
       </Routes>
     </div>
